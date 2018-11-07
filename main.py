@@ -18,16 +18,14 @@ class Main:
         self.__package = 'packages.csv'
 
         self.__helper = "Script that helps you to install easily your " \
-                        "favorite packages. It knows how to use apt, snap, " \
-                        "deb, repo. apt - apt packages, snap - snap packages," \
-                        "deb - deb file and it needs the file link," \
-                        "repo - package name and repository name." \
-                        "There are a few special like, bash(oh-my-bash)," \
-                        " and sdkman."
+                        "preferred packages. It uses apt, snap, " \
+                        "deb, repo. apt - apt packages, snap - snap packages, " \
+                        "deb - deb file and it needs the file link, " \
+                        "repo - package name and repository name."
         self.__package_help = ".csv file of the required packages. The file should" \
                               " look like this (every package in a new line): " \
-                              "<manager>,<package>,<other>"
-        self.__def_package_help = ".csv file of the selected by default packages. " \
+                              "<manager>,<package_name>,<other>"
+        self.__def_package_help = ".csv file of the selected packages by default. " \
                                   "Should look like this (every package in a new " \
                                   "line): <package_name>"
 
