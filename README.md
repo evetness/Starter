@@ -38,5 +38,14 @@ optional arguments:
 
 ```  
 
+### PEX  
+How to create your own .pex file  
+1. Install pex:  
+`pip install pex`
+2. Create .pex file:  
+`pex . inquirer blessings -c main.py -o starter.pex -f dist --python-shebang='/usr/bin/env python3'`
+3. Run:  
+`./starter.pex`
+
 ## License
 This project is licensed under the MIT License
