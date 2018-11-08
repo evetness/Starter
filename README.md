@@ -1,6 +1,9 @@
 # Starter
 > Install packages easier on Ubuntu.
 
+### Screenshot   
+![Screenshot](starter.png)
+
 ### Usage
 1. Clone the repository:  
 `git clone https://github.com/evetness/Starter.git`  
