@@ -1,14 +1,15 @@
 class Status:
     """This class is responsible for the status indicator.
     """
-    _colors = {
-        'Yellow': '\x1b[0;93m',
-        'Green': '\x1b[0;92m',
-        'Red': '\x1b[0;91m',
-        'None': '\x1b[0m'
-    }
-    """Defined colors.
-    """
+    def __init__(self):
+        self._colors = {
+            'Yellow': '\x1b[0;93m',
+            'Green': '\x1b[0;92m',
+            'Red': '\x1b[0;91m',
+            'None': '\x1b[0m'
+        }
+        """Defined colors.
+        """
 
     def colored(self, color, string):
         """Colorize string.
