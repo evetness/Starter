@@ -3,7 +3,8 @@ from subprocess import run, Popen, PIPE
 
 
 class Installer:
-    """Installer class which chooses of the package manager
+    """Installer class which chooses from the package manager,
+    then installs package.
     """
     def __init__(self):
         self._stat = Status()

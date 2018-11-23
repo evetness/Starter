@@ -32,7 +32,7 @@ class Status:
         return dashes
 
     def status(self, string, stat):
-        """Informs the user from the install status.
+        """Informs the user of the install status.
 
         :param string: str package name
         :param stat: str status

@@ -1,7 +1,7 @@
 # Starter
 > Install packages easier on Ubuntu.
 
-### Screenshot   
+### Screenshots
 ![Screenshot](starter-ask.png)
 
 ![Screenshot](starter-list.png)
