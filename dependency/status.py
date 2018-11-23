@@ -1,7 +1,7 @@
 class Status:
     """This class is responsible for the status indicator.
     """
-    __colors = {
+    _colors = {
         'Yellow': '\x1b[0;93m',
         'Green': '\x1b[0;92m',
         'Red': '\x1b[0;91m',
@@ -17,10 +17,10 @@ class Status:
         :param string: str required string
         :return: str colored string
         """
-        return self.__colors[color] + string + self.__colors['None']
+        return self._colors[color] + string + self._colors['None']
 
     @staticmethod
-    def __lines(string):
+    def _lines(string):
         """Creates a long line of dashes.
         Calculates line length from string.
 
@@ -53,6 +53,6 @@ class Status:
                                     stat,
                                     self.colored('Green', string),
                                     self.colored('Yellow', '{0}---<]'.format(
-                                        self.__lines(stat + string)))
+                                        self._lines(stat + string)))
                                        )
         print(res)

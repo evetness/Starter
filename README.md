@@ -2,7 +2,9 @@
 > Install packages easier on Ubuntu.
 
 ### Screenshot   
-![Screenshot](starter.png)
+![Screenshot](starter-ask.png)
+
+![Screenshot](starter-list.png)
 
 ### Usage
 1. Clone the repository:  
@@ -13,7 +15,7 @@
 3. Activate the virtual environment:  
 `. venv/bin/activate`
 4. Install dependencies with the following:  
-`pip install inquirer blessings`
+`pip install cutie`
 5. Run the program:  
 `python main.py`
 6. Or simply run:  
@@ -46,7 +48,7 @@ How to create your own .pex file
 1. Install pex:  
 `pip install pex`
 2. Create .pex file:  
-`pex . inquirer blessings -c main.py -o starter.pex -f dist --python-shebang='/usr/bin/env python3'`
+`pex . cutie -c main.py -o starter.pex -f dist --python-shebang='/usr/bin/env python3'`
 3. Run:  
 `./starter.pex`
 

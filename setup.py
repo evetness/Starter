@@ -10,5 +10,5 @@ setup(
         'dependency/installer.py'
         ],
     packages=['dependency'],
-    install_requires=['inquirer', 'blessings']
+    install_requires=['cutie']
 )
